@@ -1,0 +1,84 @@
+body {
+    background-image: url("mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.container {
+    background-color: #036d68d8;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 70%;
+    padding: 20px;
+
+}
+
+.random {
+    color: #06c050;
+}
+
+.generate {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+button {
+    color: #000000;
+    margin: 30px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: #02c412b6;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color: rgba(30, 182, 253, 0.548);
+}
+
+.passwords {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.first-pw, .second-pw {
+    background-color: #02c412b6;
+    margin: 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 480px) {
+    .generate,
+    .passwords {
+        flex-direction: column;
+    }
+}
+
+.checkbox-list li {
+    display: flex;
+    gap: 10px;
+    width: 175px;
+    
+}
+
+li {
+    padding-top: 15px;
+}
